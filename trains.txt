@@ -1,0 +1,15 @@
+use easytrips;
+create table trains(Arrival_City varchar(14),train_name varchar(24),timings varchar(20),duration varchar(20),price float(8,2));
+insert into trains values('Chennai','The Golden Chariot','12:35-04:05','35h 30m',2200.00);
+insert into trains values('Chennai','Chennai Express','09:15-20:30','35h 15m',1790.00);
+insert into trains values('Chennai','Maharaja Express','15:00-05:40','38h 40m',1350.00);
+insert into trains values('Goa','Goa Express','05:15-07:35','26h 20m',1679.00);
+insert into trains values('Goa','Palace On Wheels','00:10-23:45','23h 35m',2810.00);
+insert into trains values('Goa','Shatabdi','06:15-04:55','22h 40m',2250.00);
+insert into trains values('Bangalore','Bengaluru Express','07:20-05:05','21h 45m',1872.00);
+insert into trains values('Bangalore','Maharaja Express','09:15-09:25','24h 10m',1510.00);
+insert into trains values('Bangalore','The Golden Chariot','10:05-08:05','22h 00m',1800.00);
+insert into trains values('Mumbai','Bombay Express','20:50-18:35','21h 45m',2342.00);
+insert into trains values('Mumbai','Shatabdi','16:00-14:00','22h 00m',1955.00);
+insert into trains values('Mumbai','Palace On Wheels','23:00-05:00','30h 00m' ,2585.00);
+

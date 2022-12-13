@@ -1,0 +1,15 @@
+use easytrips;
+create table hotels(Arrival_City varchar(14),hotelname varchar(25),category varchar(10),duration varchar(25),price float(8,2));
+insert into hotels values('Mumbai','Hotel Lake Palace','3 star','4 days 3 nights',32500);
+insert into hotels values('Mumbai','The Oberoi','4 star','3 days 2 nights',31250);
+insert into hotels values('Mumbai','ITC Maurya','4 star','2 days 1 nights  ',15700);
+insert into hotels values('Goa','Maharajah Pavilion','5 star','3 days 2 nights  ',34100);
+insert into hotels values('Goa','JW Marriott Hotel','5 star','2 days 1 night',14000);
+insert into hotels values('Goa','TAJ PALACE','3 star','6 days 5 nights',48250);
+insert into hotels values('Bangalore','The Oberoi','4 star','2 days 1 night',12450);
+insert into hotels values('Bangalore','The LaLiT','5 star','5 days 4 nights',43140);
+insert into hotels values('Bangalore','The Lodhi ','5 star','3 days 2 nights',35300);
+insert into hotels values('Chennai','The Imperial','3 star','3 days 2 nights',21000);
+insert into hotels values('Chennai','Hyatt Regency','3 star','3 days 2 nights',15400);
+insert into hotels values('Chennai','Radisson Blue','4 star','4 days 3 night',33350);
+

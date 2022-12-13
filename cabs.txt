@@ -1,0 +1,15 @@
+use easytrips;
+create table cabs(Arrival_City varchar(14),duration varchar(20),price float(8,2),carname varchar(18), ac varchar(3));
+insert into cabs values('Chennai','5 days',2850,'Wagon R(3 seater)', 'AC');
+insert into cabs values('Chennai','5 days',2760,'Duster(5 seater)','AC');
+insert into cabs values('Chennai','5 days',3000,'Ertiga(7 seater)','AC');
+insert into cabs values('Goa','4 days',2730,'Ertiga(7 seater)','AC');
+insert into cabs values('Goa','4 days',2575,'Duster(5 seater)','AC');
+insert into cabs values('Goa','4 days',2700,'Wagon R(3 seater)','AC');
+insert into cabs values('Bangalore','4 days',2750,'Duster(5 seater)','AC');
+insert into cabs values('Bangalore','4 days',2800,'Ertiga(7 seater)','AC');
+insert into cabs values('Bangalore','4 days',1900,'Wagon R(3 seater)','AC');
+insert into cabs values('Mumbai','3 days',1968,'Ertiga(7 seater)','AC');
+insert into cabs values('Mumbai','3 days',2130,'Wagon R(3 seater)','AC');
+insert into cabs values('Mumbai','3 days',3000,'Duster(5 seater)','AC');
+

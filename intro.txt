@@ -1,0 +1,12 @@
+550, 365
+
+create database easytrips.com;
+
+use easytrips;
+
+create table user_details(
+	NAME varchar(25),
+	AGE integer(3),
+	GENDER varchar(10),
+	M_NO varchar(12)
+);

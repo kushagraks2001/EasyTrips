@@ -1,0 +1,15 @@
+use easytrips;
+create table flights(Arrival_City varchar(14),flight_name varchar(14),timings varchar(20),duration varchar(20),price float(8,2));
+insert into flights values('Mumbai','SpiceJet','10:00 AM-12:15PM','2 hours 15 mins.',2250.00);
+insert into flights values('Mumbai','JetAirways','12:35 PM-3:00PM','2 hours 25 mins.',3125.00);
+insert into flights values('Mumbai','Etihad','4:05 PM-6:25PM','2 hours 20 mins.',2570.00);
+insert into flights values('Goa','Indigo','9:40 AM-12:15PM','2 hours 35 mins.',3410.00);
+insert into flights values('Goa','Air India','12:00 AM-2:30PM','2 hours 30 mins.',4100.00);
+insert into flights values('Goa','Lufthansa','6:00 PM-8:40PM','2 hours 40 mins.',3825.00);
+insert into flights values('Bangalore','Emirates','10:00 AM-12:15PM','2 hours 45 mins.',3985.00);
+insert into flights values('Bangalore','Vistara','5:35 PM-8:25PM','2 hours 50 mins.',3310.00);
+insert into flights values('Bangalore','SpiceJet','1:00 PM-3:45PM','2 hours 45 mins.',3560.00);
+insert into flights values('Chennai','GoAir','10:00 AM-1:05PM','3 hours 05 mins.',4200.00);
+insert into flights values('Chennai','Qatar','1:00 PM-4:00PM','3 hours 00 mins.',4510.00);
+insert into flights values('Chennai','AirAsia','4:30 PM-7:25PM','2hours 55 mins.',4335.00);
+

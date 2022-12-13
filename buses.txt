@@ -1,0 +1,15 @@
+use easytrips;
+create table buses(Arrival_City varchar(14),timings varchar(20),duration varchar(20),price float(8,2),cateogary varchar(18));
+insert into buses values('Chennai','20:30-11:00','13h 30m',1750,'Deluxe');
+insert into buses values('Chennai','13:00-23:15','12h 15m',1700,'Supreme');
+insert into buses values('Chennai','12:30-23:30','12h 00m',2000,'Sleeper');
+insert into buses values('Goa','21:15-09:30','12h 15m',1730,'Sleeper');
+insert into buses values('Goa','20:30-09:10','12h 40m',1570,'Supreme');
+insert into buses values('Goa','23:59-11:15','12h 16m',1700,'Deluxe');
+insert into buses values('Bangalore','20:30-11:00','13h 30m',1750,'Supreme');
+insert into buses values('Bangalore','20:30-09:10','12h 40m',1800,'Sleeper');
+insert into buses values('Bangalore','13:00-23:15','12h 15m',1500,'Deluxe');
+insert into buses values('Mumbai','23:00-9:00','10h 00m',1768,'Sleeper');
+insert into buses values('Mumbai','21:15-09:30','12h 15m',1930,'Deluxe');
+insert into buses values('Mumbai','23:59-11:15','12h 16m',1700,'Supreme');
+
